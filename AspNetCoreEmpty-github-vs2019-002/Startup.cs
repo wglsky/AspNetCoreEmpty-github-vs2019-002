@@ -32,7 +32,7 @@ namespace AspNetCoreEmpty_github_vs2019_002
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello first change!");
+                    await context.Response.WriteAsync("Hello first change 01!");
                 });
             });
         }
